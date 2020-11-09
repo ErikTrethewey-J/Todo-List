@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css'
 // Importing Components
 import Form from './componentsOne/Form'
+import TodoList from './componentsOne/TodoList'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <h1>Erik's Todo List</h1>
       </header>
       <Form />
+      <TodoList />
     </div>
   );
 }
